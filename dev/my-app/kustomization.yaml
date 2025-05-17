@@ -3,6 +3,6 @@ kind: Kustomization
 
 configMapGenerator:
   - name: appKey
-    namespace: my-app
+    # namespace: my-app
     files:
       - app-key.txt=cart/app-key.txt
