@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 configMapGenerator:
-  - name: appKey
+  - name: app-key
     # namespace: my-app
     files:
       - app-key.txt=cart/app-key.txt
